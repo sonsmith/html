@@ -50,9 +50,72 @@ table {
   padding: 10px;
 }
 
-.tbl_03 tr:nth-child(1) th {
-  background-color: chocolate;
+/* 테이블 04 11*/
+.tbl_04 th,
+.tbl_04 td {
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+.tbl_04 th {
+  background-color: rgb(158, 107, 41);
+}
 
-  color: rgb(255, 255, 255);
-  padding: 20px;
+/* 테이블 05*/
+.tbl_05 th,
+.tbl_05 td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  border-left: none;
+}
+.tbl_05 td:last-child,
+th:last-child {
+  border-right: none;
+}
+.tbl_05 th {
+  background-color: rgb(158, 107, 41);
+}
+
+/* 테이블 06*/
+.tbl_06 th,
+.tbl_06 td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+/* 달력 */
+.cal {
+  width: 360px;
+  font-size: 12px;
+  color: #333;
+  border-top: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.cal td,
+.cal th {
+  border: 1px solid rgb(206, 206, 206);
+  padding: 12px;
+}
+.cal th {
+  background-color: rgb(231, 231, 231);
+  color: #000;
+}
+.cal td {
+  text-align: right;
+  cursor: pointer;
+}
+.cal td:hover {
+  background-color: rgb(168, 107, 107);
+}
+.cal td:last-child,
+.cal th:last-child {
+  color: rgb(9, 112, 160);
+}
+.cal td:first-child,
+.cal th:first-child {
+  color: crimson;
+}
+.cal .red {
+  color: red;
 }
