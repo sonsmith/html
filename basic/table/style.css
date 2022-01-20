@@ -119,3 +119,17 @@ th:last-child {
 .cal .red {
   color: red;
 }
+
+/* 테이블 07*/
+.tbl_07 th,
+.tbl_07 td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.tbl_07 th {
+  background-color: rgb(9, 112, 160);
+}
+.tbl_07 td:nth-child(2) {
+  text-align: center;
+}
